@@ -1,0 +1,1 @@
+This small application is for understanding a simple Python based CI automation using GitHub workflows. 

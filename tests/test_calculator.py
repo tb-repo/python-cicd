@@ -5,6 +5,10 @@ from ..app.calculator import (
     divide
 )
 
+import sys
+print(sys.version)
+print(sys.path)
+
 
 def test_add():
     assert add(2, 3) == 5

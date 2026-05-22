@@ -1,3 +1,10 @@
+import subprocess
+
+
+def dangerous():
+    subprocess.call("ls -l", shell=True)
+
+
 def add(a, b):
     return a+b
 

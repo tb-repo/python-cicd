@@ -27,4 +27,4 @@ jobs:
               run: bandit -r . -x ./tests
             
             - name: Run Safety for vulnerability checks
-              run: safety check
+              run: safety scan

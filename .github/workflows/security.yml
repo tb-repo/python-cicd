@@ -24,7 +24,7 @@ jobs:
                 pip install -r requirements.txt
 
             - name: Run Bandit for security analysis
-              run: bandit -r . -x ./tests || true
+              run: bandit -r . -x ./tests
             
             - name: Run Safety for vulnerability checks
-              run: safety scan
+              run: safety check
